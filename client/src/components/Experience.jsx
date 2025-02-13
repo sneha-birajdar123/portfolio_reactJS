@@ -1,30 +1,29 @@
 import React from 'react'
-import html from "../../public/html.png"
-import css from "../../public/css.jpg"
-import javascript from "../../public/javascript.png"
-import oracle from "../../public/oracle.png"
+import mongodb from "../../public/mongodb.jpg"
+import express from "../../public/express.png"
+import react from "../../public/react.png"
+import node from "../../public/node.png"
 
 const Experience = () => {
     const cardItem = [
         {
             id: 1,
-            logo: html,
-            name: "HTML"
+            logo: mongodb,
+            name: "MongoDB"
         },
         {
             id: 2,
-            logo: css,
-            name: "CSS"
+            logo: express,
+            name: "Express"
         },
         {
             id: 3,
-            logo: javascript,
-            name: "JavaScript"
-        },
-        {
+            logo: react,
+            name: "ReactJS"
+        },{
             id: 4,
-            logo: oracle,
-            name: "Oracle"
+            logo: node,
+            name: "NodeJS" 
         }
     ]
   return (

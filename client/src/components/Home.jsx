@@ -8,7 +8,7 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 
 import { ReactTyped, Typed } from "react-typed";
-import image from "../../public/photo.avif"
+import image from "../../public/myimage.jpeg"
 
 
 
@@ -75,7 +75,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='md:w-1/2   md:ml-48 md:mt-20 mt-8 order-1'>
-                        <img src={image} className='rounded-full w-[500px] h-[450px]' alt="" />
+                        <img src={image} className='rounded-full w-[380px] h-[380px]' alt="" />
                     </div>
                 </div>
             </div>
